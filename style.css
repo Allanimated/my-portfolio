@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+body#body {
+    background-image: url(images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+    
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+div.nav-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+li.nav-link button {
+    border-radius: 12px;
+    border-style: none;
+    background-color:transparent;
+}
+
+div.nav-logo {
+    font-family: 'Bai Jamjuree', sans-serif;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #072C50;
+    text-align: center;
+    color:#ffb824;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.nav-title {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 10px;
+    font-size: 25px;
+    color:#262223;
+    font-weight: bold;
+}
+
+ul.nav-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+
+li.nav-link {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+li.nav-link :hover {
+    font-size: 20px;
+    color: #F96167;
+}
+
+div.nav-menu {
+    padding-right: 15px;
+}
+
+
+section#home {
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 5rem;
+    background-image: url(images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+}
+
+img#profile {
+    display: block;
+    width: 350px;
+    height: 450px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #ffb824;
+}
+
+div#home-detail {   
+    text-align: center;
+    padding-top: 30px;
+    background-color: #072C50;
+    width: 600px;
+    height: 300px;
+    border-style: solid;
+    border-color: #ffb824;
+    border-radius: 30px;
+}
+
+div#home-detail h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    color: #ffb824;
+}
+
+div#home-detail p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #ffb824;
+}
+
+div.my-handles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    align-items: start;
+}
+
+div.my-handles a {
+    text-decoration: none;
+    color: #ffb824;
+    width: 50px;
+    font-size: 35px;
+}
+
+div.my-handles a :hover {
+    font-size: 40px;
+}
+
+
+section#aboutme {
+    row-gap: 3rem;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 5rem;
+    background-image: url(images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+}
+
+div.aboutme-box {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #072C50;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+
+div.aboutme-box h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #ffb824;
+    font-size: 30px;
+}
+
+div.Education {
+    display: block;
+    width: 60%;
+    height: 200px;
+    background-color: #F96167;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+div.Education h2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #FCE77D;
+}
+
+div.Education p {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #FCE77D;
+    font-size: 15px;
+    font-style: bold;
+}
+
+div.skills {
+    display: flex;
+    background-color: #F9D342;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+
+div.softskills h2, li {
+    color: #292826;
+}
+
+div.hardskills h2, li {
+    color: #292826;
+}
